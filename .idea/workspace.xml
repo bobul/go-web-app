@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0baf313a-a41e-4834-998d-13a49d9f82a5" name="Changes" comment="Permission handler for static dir">
+    <list default="true" id="0baf313a-a41e-4834-998d-13a49d9f82a5" name="Changes" comment="Create logger instances">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/web/handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/web/handlers.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmd/web/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/web/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/html/home.page.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/ui/html/home.page.bak" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +86,8 @@
     <MESSAGE value="Add .gitignore" />
     <MESSAGE value="Delete .gitignore" />
     <MESSAGE value="Permission handler for static dir" />
-    <option name="LAST_COMMIT_MESSAGE" value="Permission handler for static dir" />
+    <MESSAGE value="Create logger instances" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create logger instances" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
