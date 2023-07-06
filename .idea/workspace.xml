@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0baf313a-a41e-4834-998d-13a49d9f82a5" name="Changes" comment="Create helpers for error handling">
-      <change afterPath="$PROJECT_DIR$/cmd/web/routes.go" afterDir="false" />
+    <list default="true" id="0baf313a-a41e-4834-998d-13a49d9f82a5" name="Changes" comment="Add MySQL connection">
+      <change afterPath="$PROJECT_DIR$/pkg/models/models.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/models/mysql/snippets.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmd/web/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/web/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +89,8 @@
     <MESSAGE value="Create logger instances" />
     <MESSAGE value="Apply dependency injection" />
     <MESSAGE value="Create helpers for error handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create helpers for error handling" />
+    <MESSAGE value="Add MySQL connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add MySQL connection" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
