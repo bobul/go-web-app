@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0baf313a-a41e-4834-998d-13a49d9f82a5" name="Changes" comment="Create snippet and handle to get snippet by ID">
+    <list default="true" id="0baf313a-a41e-4834-998d-13a49d9f82a5" name="Changes" comment="Add handler for showing latest snippets">
+      <change afterPath="$PROJECT_DIR$/cmd/web/templates.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/html/show.page.tmpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmd/web/handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/web/handlers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/models/mysql/snippets.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/models/mysql/snippets.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/html/base.layout.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/ui/html/base.layout.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/html/footer.partial.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/ui/html/footer.partial.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/html/home.page.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/ui/html/home.page.tmpl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +95,8 @@
     <MESSAGE value="Add MySQL connection" />
     <MESSAGE value="Create models and some snippets" />
     <MESSAGE value="Create snippet and handle to get snippet by ID" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create snippet and handle to get snippet by ID" />
+    <MESSAGE value="Add handler for showing latest snippets" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add handler for showing latest snippets" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
